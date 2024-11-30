@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jousting Game</title>
+    <style>
+        /* General Reset */
+      body {
+    background-image: url('https://i.pinimg.com/736x/99/4c/1f/994c1f205ff43c7528abea39697ac7a9.jpg');
+    font-family: 'Times New Roman', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;  /* Scale the image to cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+}
+
+
+        /* Centered Home Screen */
+        .home-screen {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.7); /* Adds a semi-transparent dark background */
+            padding: 30px 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Title Style */
+        .home-screen h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            color: #ffd700; /* Golden color for a royal theme */
+            text-shadow: 3px 3px 5px #000;
+        }
+
+        /* Button Style */
+        #start-button {
+            background: linear-gradient(to bottom, #f7b500, #d19000); /* Golden gradient for button */
+            border: 2px solid #a87000;
+            color: #000;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        #start-button:hover {
+            background: linear-gradient(to bottom, #ffd700, #f0a500);
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(255, 223, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="home-screen">
+        <h1>⚔ Jousting Arena ⚔</h1>
+        <button id="start-button" onclick="location.href='https://ash-267.github.io/Jousting-Sport-Simulation/'">Start Game</button>
+    </div>
+</body>
+</html>
